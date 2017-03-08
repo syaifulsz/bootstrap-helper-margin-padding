@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-helper-margin-padding",
+  "authors": [
+    "Syaiful Shah Zinan <i.works@live.com>"
+  ],
+  "description": "This helper is useful for adding spacing in between element.",
+  "main": "dist/bootstrap-helper-margin-padding.min.css",
+  "keywords": [
+    "Bootstrap", "helper", "margin", "padding", "spacing"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/syaifulsz/bootstrap-helper-margin-padding",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}

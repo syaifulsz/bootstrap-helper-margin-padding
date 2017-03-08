@@ -1,0 +1,45 @@
+/*!*
+ * Bootstrap helper for margin and padding
+ * -----------------------------------------------------------------------------
+ * This helper is useful for adding spacing in between element.
+ * Default sizes are 15px and 30px, the first size in sizes list is consider
+ * as first and default size for .margin and .padding, thus, there is no class
+ * name .margin-15 and .padding-15.
+ *
+ * These helper is responsive and supports Bootstrap 3 responsive utilities
+ * (xs, sm, md, lg). Additional media queries is configurable and can be
+ * extended depending on your project requirements.
+ *
+ * Example usage:
+ * -----------------------------------------------------------------------------
+ * .margin, .margin--top, .margin-30--top
+ * .padding, .padding--top, .padding-30--top
+ *
+ * Example usage with responsive media query:
+ * -----------------------------------------------------------------------------
+ * .margin-xs, .margin-xs--top, .margin-xs-30--top
+ * .padding-xs, .padding-xs--top, .padding-xs-30--top
+ *
+ *
+ * @author: Syaiful Shah Zinan (i.works@live.com)
+ * @link: https://github.com/syaifulsz/bootstrap-helper-margin-padding
+ * @since: 1.0.0
+ */
+
+@mixin helper-margin-padding($sizes: 15 30, $mode: null)
+    $positions: top left right bottom
+    $first-item: nth($sizes, 1)
+    @each $size in $sizes
+        $size-name: -#{$size}
+        @if index($size, $first-item) == 1
+            $size-name: null
+        .margin#{$mode}#{$size-name}
+            margin: #{$size}px
+        @each $position in $positions
+            .margin#{$mode}#{$size-name}--#{$position}
+                margin-#{$position}: #{$size}px
+        .padding#{$mode}#{$size-name}
+            padding: #{$size}px
+        @each $position in $positions
+            .padding#{$mode}#{$size-name}--#{$position}
+                padding-#{$position}: #{$size}px

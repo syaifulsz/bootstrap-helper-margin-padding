@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-helper-margin-padding",
+  "version": "1.0.0",
+  "description": "This helper is useful for adding spacing in between element.",
+  "main": "dist/bootstrap-helper-margin-padding.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syaifulsz/bootstrap-helper-margin-padding.git"
+  },
+  "author": "Syaiful Shah Zinan <i.works@live.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/syaifulsz/bootstrap-helper-margin-padding#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
