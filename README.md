@@ -1,6 +1,6 @@
 # Bootstrap Helper: Margin & Padding
 
-This helper is useful for adding spacing in between element. Default sizes are 15px and 30px, the first size in sizes list is consider as first and default size for .margin and .padding, thus, there is no class name .margin-15 and .padding-15.
+A responsive Bootstrap 3 helper to add spacing or gutter with margin and padding in to block or inline-block elements. Default sizes are 15px and 30px, the first size in sizes list is consider as first and default size for .margin and .padding, thus, there is no class name .margin-15 and .padding-15.
 
 This helper is responsive and support Bootstrap 3's responsive utilities (xs, sm, md, lg). Additional media queries is configurable and can be extended depending on your project requirements.
 

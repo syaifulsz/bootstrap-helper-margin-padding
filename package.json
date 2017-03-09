@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-helper-margin-padding",
   "version": "1.0.0",
-  "description": "This helper is useful for adding spacing in between element.",
+  "description": "A responsive Bootstrap 3 helper to add spacing or gutter with margin and padding in to block or inline-block elements.",
   "main": "dist/bootstrap-helper-margin-padding.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/syaifulsz/bootstrap-helper-margin-padding.git"
   },
   "author": "Syaiful Shah Zinan <i.works@live.com>",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/syaifulsz/bootstrap-helper-margin-padding#readme",
   "dependencies": {
     "grunt": "^1.0.1",
