@@ -5,6 +5,10 @@ module.exports = function(grunt) {
 
         pkg: grunt.file.readJSON('package.json'),
 
+        config: {
+            helper_name: 'bootstrap-helper-margin-padding'
+        },
+
         clean: {
             'dist': 'dist',
             'build': 'build'
@@ -16,11 +20,11 @@ module.exports = function(grunt) {
             },
             build_dev: {
                 files: {
-                    'build/bootstrap-helper-margin-padding.css': [
-                        'src/bootstrap-helper-margin-padding.sass'
+                    'build/<%= config.public_path %>.css': [
+                        'src/<%= config.public_path %>.sass'
                     ],
-                    'build/bootstrap-helper-margin-padding-responsive.css': [
-                        'src/bootstrap-helper-margin-padding-responsive.sass'
+                    'build/<%= config.public_path %>-responsive.css': [
+                        'src/<%= config.public_path %>-responsive.sass'
                     ]
                 }
             },
@@ -29,11 +33,11 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'build/bootstrap-helper-margin-padding.min.css': [
-                        'src/bootstrap-helper-margin-padding.sass'
+                    'build/<%= config.public_path %>.min.css': [
+                        'src/<%= config.public_path %>.sass'
                     ],
-                    'build/bootstrap-helper-margin-padding-responsive.min.css': [
-                        'src/bootstrap-helper-margin-padding-responsive.sass'
+                    'build/<%= config.public_path %>-responsive.min.css': [
+                        'src/<%= config.public_path %>-responsive.sass'
                     ]
                 }
             },
@@ -42,11 +46,11 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'dist/bootstrap-helper-margin-padding.min.css': [
-                        'src/bootstrap-helper-margin-padding.sass'
+                    'dist/<%= config.public_path %>.min.css': [
+                        'src/<%= config.public_path %>.sass'
                     ],
-                    'dist/bootstrap-helper-margin-padding-responsive.min.css': [
-                        'src/bootstrap-helper-margin-padding-responsive.sass'
+                    'dist/<%= config.public_path %>-responsive.min.css': [
+                        'src/<%= config.public_path %>-responsive.sass'
                     ]
                 }
             }
