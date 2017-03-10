@@ -1,0 +1,28 @@
+/*!*
+ * Bootstrap helper for margin and padding
+ * -----------------------------------------------------------------------------
+ * This is a responsive helper to add spacing or gutter with margin and padding
+ * in to block or inline-block elements. Default sizes are 15px and 30px, the
+ * first size in sizes list is consider as first and default size for .margin
+ * and .padding, thus, there is no class name .margin-15 and .padding-15.
+ *
+ * These helper is responsive and supports Bootstrap 3 responsive utilities
+ * (xs, sm, md, lg). Additional media queries is configurable and can be
+ * extended depending on your project requirements.
+ *
+ * Example usage:
+ * -----------------------------------------------------------------------------
+ * .margin, .margin--top, .margin-30--top
+ * .padding, .padding--top, .padding-30--top
+ *
+ * Example usage with responsive media query:
+ * -----------------------------------------------------------------------------
+ * .margin-xs, .margin-xs--top, .margin-xs-30--top
+ * .padding-xs, .padding-xs--top, .padding-xs-30--top
+ *
+ *
+ * @author: Syaiful Shah Zinan (i.works@live.com)
+ * @link: https://github.com/syaifulsz/bootstrap-helper-margin-padding
+ * @since: 1.1.0
+ */.margin{margin:15px}.margin--top{margin-top:15px}.margin--left{margin-left:15px}.margin--right{margin-right:15px}.margin--bottom{margin-bottom:15px}.padding{padding:15px}.padding--top{padding-top:15px}.padding--left{padding-left:15px}.padding--right{padding-right:15px}.padding--bottom{padding-bottom:15px}.margin-30{margin:30px}.margin-30--top{margin-top:30px}.margin-30--left{margin-left:30px}.margin-30--right{margin-right:30px}.margin-30--bottom{margin-bottom:30px}.padding-30{padding:30px}.padding-30--top{padding-top:30px}.padding-30--left{padding-left:30px}.padding-30--right{padding-right:30px}.padding-30--bottom{padding-bottom:30px}.margin-0{margin:0}.margin-0-top{margin-top:0}.margin-0-left{margin-left:0}.margin-0-right{margin-right:0}.margin-0-bottom{margin-bottom:0}.padding-0{padding:0}.padding-0-top{padding-top:0}.padding-0-left{padding-left:0}.padding-0-right{padding-right:0}.padding-0-bottom{padding-bottom:0}
+/*# sourceMappingURL=bootstrap-helper-margin-padding.min.css.map */

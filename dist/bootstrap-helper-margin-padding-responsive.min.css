@@ -1,0 +1,28 @@
+/*!*
+ * Bootstrap helper for margin and padding
+ * -----------------------------------------------------------------------------
+ * This is a responsive helper to add spacing or gutter with margin and padding
+ * in to block or inline-block elements. Default sizes are 15px and 30px, the
+ * first size in sizes list is consider as first and default size for .margin
+ * and .padding, thus, there is no class name .margin-15 and .padding-15.
+ *
+ * These helper is responsive and supports Bootstrap 3 responsive utilities
+ * (xs, sm, md, lg). Additional media queries is configurable and can be
+ * extended depending on your project requirements.
+ *
+ * Example usage:
+ * -----------------------------------------------------------------------------
+ * .margin, .margin--top, .margin-30--top
+ * .padding, .padding--top, .padding-30--top
+ *
+ * Example usage with responsive media query:
+ * -----------------------------------------------------------------------------
+ * .margin-xs, .margin-xs--top, .margin-xs-30--top
+ * .padding-xs, .padding-xs--top, .padding-xs-30--top
+ *
+ *
+ * @author: Syaiful Shah Zinan (i.works@live.com)
+ * @link: https://github.com/syaifulsz/bootstrap-helper-margin-padding
+ * @since: 1.1.0
+ */@media (max-width: 767px){.margin-xs{margin:15px}.margin-xs--top{margin-top:15px}.margin-xs--left{margin-left:15px}.margin-xs--right{margin-right:15px}.margin-xs--bottom{margin-bottom:15px}.padding-xs{padding:15px}.padding-xs--top{padding-top:15px}.padding-xs--left{padding-left:15px}.padding-xs--right{padding-right:15px}.padding-xs--bottom{padding-bottom:15px}.margin-xs-30{margin:30px}.margin-xs-30--top{margin-top:30px}.margin-xs-30--left{margin-left:30px}.margin-xs-30--right{margin-right:30px}.margin-xs-30--bottom{margin-bottom:30px}.padding-xs-30{padding:30px}.padding-xs-30--top{padding-top:30px}.padding-xs-30--left{padding-left:30px}.padding-xs-30--right{padding-right:30px}.padding-xs-30--bottom{padding-bottom:30px}.margin-xs-0{margin:0}.margin-xs-0-top{margin-top:0}.margin-xs-0-left{margin-left:0}.margin-xs-0-right{margin-right:0}.margin-xs-0-bottom{margin-bottom:0}.padding-xs-0{padding:0}.padding-xs-0-top{padding-top:0}.padding-xs-0-left{padding-left:0}.padding-xs-0-right{padding-right:0}.padding-xs-0-bottom{padding-bottom:0}}@media (min-width: 768px) and (max-width: 991px){.margin-sm{margin:15px}.margin-sm--top{margin-top:15px}.margin-sm--left{margin-left:15px}.margin-sm--right{margin-right:15px}.margin-sm--bottom{margin-bottom:15px}.padding-sm{padding:15px}.padding-sm--top{padding-top:15px}.padding-sm--left{padding-left:15px}.padding-sm--right{padding-right:15px}.padding-sm--bottom{padding-bottom:15px}.margin-sm-30{margin:30px}.margin-sm-30--top{margin-top:30px}.margin-sm-30--left{margin-left:30px}.margin-sm-30--right{margin-right:30px}.margin-sm-30--bottom{margin-bottom:30px}.padding-sm-30{padding:30px}.padding-sm-30--top{padding-top:30px}.padding-sm-30--left{padding-left:30px}.padding-sm-30--right{padding-right:30px}.padding-sm-30--bottom{padding-bottom:30px}.margin-sm-0{margin:0}.margin-sm-0-top{margin-top:0}.margin-sm-0-left{margin-left:0}.margin-sm-0-right{margin-right:0}.margin-sm-0-bottom{margin-bottom:0}.padding-sm-0{padding:0}.padding-sm-0-top{padding-top:0}.padding-sm-0-left{padding-left:0}.padding-sm-0-right{padding-right:0}.padding-sm-0-bottom{padding-bottom:0}}@media (min-width: 992px) and (max-width: 1199px){.margin-md{margin:15px}.margin-md--top{margin-top:15px}.margin-md--left{margin-left:15px}.margin-md--right{margin-right:15px}.margin-md--bottom{margin-bottom:15px}.padding-md{padding:15px}.padding-md--top{padding-top:15px}.padding-md--left{padding-left:15px}.padding-md--right{padding-right:15px}.padding-md--bottom{padding-bottom:15px}.margin-md-30{margin:30px}.margin-md-30--top{margin-top:30px}.margin-md-30--left{margin-left:30px}.margin-md-30--right{margin-right:30px}.margin-md-30--bottom{margin-bottom:30px}.padding-md-30{padding:30px}.padding-md-30--top{padding-top:30px}.padding-md-30--left{padding-left:30px}.padding-md-30--right{padding-right:30px}.padding-md-30--bottom{padding-bottom:30px}.margin-md-0{margin:0}.margin-md-0-top{margin-top:0}.margin-md-0-left{margin-left:0}.margin-md-0-right{margin-right:0}.margin-md-0-bottom{margin-bottom:0}.padding-md-0{padding:0}.padding-md-0-top{padding-top:0}.padding-md-0-left{padding-left:0}.padding-md-0-right{padding-right:0}.padding-md-0-bottom{padding-bottom:0}}@media (min-width: 1200px){.margin-lg{margin:15px}.margin-lg--top{margin-top:15px}.margin-lg--left{margin-left:15px}.margin-lg--right{margin-right:15px}.margin-lg--bottom{margin-bottom:15px}.padding-lg{padding:15px}.padding-lg--top{padding-top:15px}.padding-lg--left{padding-left:15px}.padding-lg--right{padding-right:15px}.padding-lg--bottom{padding-bottom:15px}.margin-lg-30{margin:30px}.margin-lg-30--top{margin-top:30px}.margin-lg-30--left{margin-left:30px}.margin-lg-30--right{margin-right:30px}.margin-lg-30--bottom{margin-bottom:30px}.padding-lg-30{padding:30px}.padding-lg-30--top{padding-top:30px}.padding-lg-30--left{padding-left:30px}.padding-lg-30--right{padding-right:30px}.padding-lg-30--bottom{padding-bottom:30px}.margin-lg-0{margin:0}.margin-lg-0-top{margin-top:0}.margin-lg-0-left{margin-left:0}.margin-lg-0-right{margin-right:0}.margin-lg-0-bottom{margin-bottom:0}.padding-lg-0{padding:0}.padding-lg-0-top{padding-top:0}.padding-lg-0-left{padding-left:0}.padding-lg-0-right{padding-right:0}.padding-lg-0-bottom{padding-bottom:0}}
+/*# sourceMappingURL=bootstrap-helper-margin-padding-responsive.min.css.map */

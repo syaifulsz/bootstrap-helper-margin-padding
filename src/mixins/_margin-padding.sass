@@ -12,18 +12,18 @@
  *
  * Example usage:
  * -----------------------------------------------------------------------------
- * .margin, .margin--top, .margin-30--top
- * .padding, .padding--top, .padding-30--top
+ * .margin, .margin--top, .margin-30--top, .margin-0--bottom
+ * .padding, .padding--top, .padding-30--top, .padding-0--bottom
  *
  * Example usage with responsive media query:
  * -----------------------------------------------------------------------------
- * .margin-xs, .margin-xs--top, .margin-xs-30--top
- * .padding-xs, .padding-xs--top, .padding-xs-30--top
+ * .margin-xs, .margin-xs--top, .margin-xs-30--top, .margin-sm-0--top
+ * .padding-xs, .padding-xs--top, .padding-xs-30--top, .padding-sm-0--top
  *
  *
  * @author: Syaiful Shah Zinan (i.works@live.com)
  * @link: https://github.com/syaifulsz/bootstrap-helper-margin-padding
- * @since: 1.0.0
+ * @since: 1.1.0
  */
 
 @mixin helper-margin-padding($sizes: 15 30, $mode: null)
@@ -43,3 +43,15 @@
         @each $position in $positions
             .padding#{$mode}#{$size-name}--#{$position}
                 padding-#{$position}: #{$size}px
+
+    .margin#{$mode}-0
+        margin: 0
+    @each $position in $positions
+        .margin#{$mode}-0-#{$position}
+            margin-#{$position}: 0
+
+    .padding#{$mode}-0
+        padding: 0
+    @each $position in $positions
+        .padding#{$mode}-0-#{$position}
+            padding-#{$position}: 0

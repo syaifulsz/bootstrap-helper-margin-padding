@@ -11,26 +11,26 @@
 //
 // Example usage:
 // -----------------------------------------------------------------------------
-// .margin, .margin--top, .margin-30--top
-// .padding, .padding--top, .padding-30--top
+// .margin, .margin--top, .margin-30--top, .margin-0--bottom
+// .padding, .padding--top, .padding-30--top, .padding-0--bottom
 //
 // Example usage with responsive media query:
 // -----------------------------------------------------------------------------
-// .margin-xs, .margin-xs--top, .margin-xs-30--top
-// .padding-xs, .padding-xs--top, .padding-xs-30--top
+// .margin-xs, .margin-xs--top, .margin-xs-30--top, .margin-sm-0--top
+// .padding-xs, .padding-xs--top, .padding-xs-30--top, .padding-sm-0--top
 //
 //
 // @author: Syaiful Shah Zinan (i.works@live.com)
 // @link: https://github.com/syaifulsz/bootstrap-helper-margin-padding
-// @since: 1.0.0
+// @since: 1.1.0
 
 @import mixins/margin-padding
 
-$helper-margin-padding--global: true
-$helper-margin-padding--xs: false
-$helper-margin-padding--sm: false
-$helper-margin-padding--md: false
-$helper-margin-padding--lg: false
+$helper-margin-padding--global: true !default
+$helper-margin-padding--xs: false !default
+$helper-margin-padding--sm: false !default
+$helper-margin-padding--md: false !default
+$helper-margin-padding--lg: false !default
 $sizes: 15 30
 
 $screen-xs-min: 480px !default

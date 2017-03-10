@@ -6,10 +6,22 @@ This helper is responsive and support Bootstrap 3's responsive utilities (xs, sm
 
 ## Getting Started
 
+[Download](https://github.com/syaifulsz/bootstrap-helper-margin-padding/releases) latest version or install by bower:
+
+```sh
+bower install bootstrap-helper-margin-padding
+```
+
 Include this stylesheet code into your site:
 
 ```html
 <link rel="stylesheet" href="dist/bootstrap-helper-margin-padding.min.css" />
+```
+
+If you want to have a responsive margin-padding helper, include this stylesheet too:
+
+```html
+<link rel="stylesheet" href="dist/bootstrap-helper-margin-padding-responsive.min.css" />
 ```
 
 ## Example usage:
